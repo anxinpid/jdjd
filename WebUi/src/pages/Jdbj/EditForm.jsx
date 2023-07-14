@@ -20,7 +20,7 @@ const View = (props) => {
         // console.log('Received values of form: ', values)
         // console.log({ ...values, Id: props.selectedRecord.Id });
       
-        BaojiaPostAPI({ ...values, Id: props.selectedRecord.Id }).then(resJson => {
+        BaojiaPostAPI({ ...values, Id: props?.selectedRecord?.Id??0 }).then(resJson => {
             props.onCancel();
         });
     };
