@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "brandName": "json-s212",
+      "brandFullName": "json-server2",
+      "jdUrl": "json-server3",
+      "jdPrice": "1.04",
+      "qdPrice": "1.15",
+      "referPrice": "1.26",
+      "riqi": "json-server7",
+      "id": 1
+    },
+    {
+      "brandName": "jd",
+      "brandFullName": "wq",
+      "jdUrl": "2",
+      "jdPrice": "2",
+      "qdPrice": "34",
+      "referPrice": "4",
+      "riqi": "32",
+      "weName": "12",
+      "id": 2
+    }
+  ],
+  "baojia": [
+    {
+      "id": 1,
+      "brandName": "json-server",
+      "brandFullName": "json-server",
+      "jdUrl": "json-server",
+      "jdPrice": "1.0",
+      "qdPrice": "1.1",
+      "referPrice": "1.2",
+      "riqi": "json-server"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
